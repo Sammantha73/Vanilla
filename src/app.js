@@ -13,9 +13,9 @@ function myFunction() {
     "while I was praying"
   ];
 
-  num = who.length;
-  num2 = what.length;
-  num3 = when.length;
+  var num = who.length;
+  var num2 = what.length;
+  var num3 = when.length;
 
   var ramdomwho = Math.floor(Math.random() * num);
   var randomwhat = Math.floor(Math.random() * num2);
